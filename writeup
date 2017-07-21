@@ -1,0 +1,16 @@
+### 1: 
+My pipline 
+	a. grayscle image 
+	b. crop the bottom half of the image 
+	c. do canny edge detection
+	d. crop the trangle region of the interest from the image 
+	e. do hough line detection 
+	f. processing lines and divid them into left and right groups according to their slopes
+	g. processing each group of the lines, average the slopes and intersections with the 		bottom line of the image .
+
+### 2: the shortcoming of my pipline 
+	a. it is hard to tune a suitable parameters for canny edge detection and hough line transform, in real application, this method is infeasible .
+
+
+### 3 , possible improvements :
+	a. add kalman filter to track the lines . so that the lines would not jump around . 
